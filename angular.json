@@ -8,7 +8,12 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
-        }
+        },
+        "styles": [
+          "node_modules/bootstrap/dist/css/bootstrap.min.css",
+          "src/styles.scss"
+         ]
+
       },
       "root": "",
       "sourceRoot": "src",
@@ -100,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "89aa9095-a9ba-4dba-a5a1-faf9a1a82a82"
   }
 }
